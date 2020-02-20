@@ -1,0 +1,26 @@
+body{font-family:'Times New Roman', Times, serif; 
+    font-size: 14pt;
+    width: 210mm;
+height: 297mm;
+margin-left: 30mm;
+margin-top: 15mm;
+margin-right: 15mm;
+border: 0ch;
+}
+.bgu {font-weight:bold;
+    text-align:center;
+margin-bottom: 50mm;}
+  .referat {text-align:center;
+  }
+  .tema {font-weight:bold;
+  }
+  .asp {margin-left:50%;
+margin-top: 30mm;
+margin-bottom: 30mm;}
+
+  .text{text-align:center;
+  margin-top: 90mm; }
+  .under {text-decoration:underline}
+  
+  
+  
