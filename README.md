@@ -5,3 +5,6 @@
 * ## Class05
  * [Task01](class05/Task01/)
  * [Task02](class05/Task02/)
+* ## Class07
+ * [Task01](class07/Task01/)
+ * [Task02](class07/Task02/)
