@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tehnika</h1>
+    </header>
+    <nav>
+        <ul class="main-menu" type="circle">
+            <li><a href="#">Бытовая техника</a>
+                <ul class="sub-menu" type="square">
+                    <li><a href="#">Стиральные машины</a></li>
+                    <li><a href="#">Пылесосы</a></li>
+                    <li><a href="#">Швейные, вышивальные машины</a>
+                    </li>
+                    <li><a href="#">Утюги</a></li>
+                    <li><a href="#">Электровеники</a></li>
+                    <li><a href="#">Сушилки для обуви</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Техника для кухни</a>
+                <ul class="sub-menu" type="square">
+                    <li><a href="#">Холодильники</a></li>
+                    <li><a href="#">Кухонные плиты</a></li>
+                    <li><a href="#">Морозильники</a></li>
+                    <li><a href="#">Настольные плиты</a></li>
+                    <li><a href="#">Ростеры, мини-печи</a></li>
+                    <li><a href="#">Вытяжки</a></li>
+                    <li><a href="#">Микроволновые печи</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Компьютерная техника</a>
+                <ul class="sub-menu" type="square">
+                    <li><a href="#">Ноутбуки</a></li>
+                    <li><a href="#">Планшеты</a></li>
+                    <li><a href="#">Компьютеры, моноблоки</a></li>
+                    <li><a href="#">Игровые приставки</a></li>
+                    <li><a href="#">Серверное оборудование</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Корзина</a></li>
+        </ul>
+    </nav>
+    <form>
+        <p>Введите фамилию</p>
+        <input type="text" name="name" placeholder="Name" required>
+        <p>Введите имя</p>
+        <input type="text" name="family" placeholder="Family" required>
+        <input type="tel" name="phone_num" placeholder="phone" required>
+        <input type="email" name="email" placeholder="email" required>
+        
+
+            <label for="dost">Самовывоз <a name="karta" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.600659985325!2d27.548962715859535!3d53.903301480099486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1583243230009!5m2!1sru!2sby" target="map">по адресу</a></label>
+            <iframe name="map" width="300" height="200"></iframe>
+            <input type="radio" id="dost" name="dostavka" value="sam">
+        
+            
+            
+
+        <label for="kur">Доставка курьером</label>
+        <input type="radio" id="kur" name="dostavka" value="kur">
+        <textarea type="text"></textarea>
+        <input type="checkbox">
+        <p>Я принимаю <a href="#">услоия доставки</a></p>
+        <button>Подтвердить заказ</button>
+    </form>
+    <footer>
+        <div class="contacts">
+            <p>Наши контакты:</p>
+            <p>Время работы: Пн -Пт 9.00 - 18.00</p>
+            <address>Немига 5</address>
+            <tel>293458284</tel>
+            <skype>35675877</skype>
+        </div>
+    </footer>
+</body>
+
+</html>
