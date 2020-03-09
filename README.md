@@ -8,3 +8,9 @@
 * ## Class07
  * [Task01](class07/Task01/)
  * [Task02](class07/Task02/)
+* ## Class08
+ * [Task01](class08/Task01/)
+* ## Class09
+ * [Task01](class09/Task01/)
+* ## Class10
+ * [Task01](class10/Task01/)
