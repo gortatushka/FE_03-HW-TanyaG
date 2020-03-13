@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оформление заказа</title>
     <link rel="stylesheet" href="cart.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -56,20 +57,24 @@
         <input type="text" name="family" placeholder="Family" required>
         <input type="tel" name="phone_num" placeholder="phone" required>
         <input type="email" name="email" placeholder="email" required>
-        
+        <ul>Выберите способ доставки:
 
-            <label for="dost">Самовывоз <a name="karta" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.600659985325!2d27.548962715859535!3d53.903301480099486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1583243230009!5m2!1sru!2sby" target="map">по адресу</a></label>
-            <iframe name="map" width="300" height="200"></iframe>
-            <input type="radio" id="dost" name="dostavka" value="sam">
-        
-            
-            
+            <li>Самовывоз со склада
+                <input type="checkbox" id="samo"> <label for="samo"><span class="pointer">по адресу</span> </label>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6004821559873!2d27.54896271532657!3d53.90330464054817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2svulica%20Niamiha%205%2C%20Minsk!5e0!3m2!1sen!2sby!4v1583785161921!5m2!1sen!2sby"
+                     allowfullscreen=""></iframe>
+            </li>
 
-        <label for="kur">Доставка курьером</label>
-        <input type="radio" id="kur" name="dostavka" value="kur">
+            <li> <input type="checkbox" name="kur" id="kurer"> <label for="kurer"> <span class="pointer">Курьером по
+                        Минску</span></label>
+                <label for="dostavka">Введите адрес:</label> <input type="text" id="dostavka">
+            </li>
+        </ul>
+
         <textarea type="text"></textarea>
-        <input type="checkbox">
-        <p>Я принимаю <a href="#">услоия доставки</a></p>
+        <input type="checkbox" id="ysl" required>
+        <label for id="ysl">Я принимаю <a href="#">условия доставки</a></label><br/>
         <button>Подтвердить заказ</button>
     </form>
     <footer>
@@ -77,7 +82,7 @@
             <p>Наши контакты:</p>
             <p>Время работы: Пн -Пт 9.00 - 18.00</p>
             <address>Немига 5</address>
-            <tel>293458284</tel>
+            <tel>293458284</tel><br />
             <skype>35675877</skype>
         </div>
     </footer>
