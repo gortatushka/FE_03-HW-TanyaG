@@ -1,0 +1,7 @@
+#knopka{position: relative;}
+input[type=checkbox]{position: absolute;
+display: none;}
+svg{fill: gray;
+stroke: gray;}
+svg:hover {fill: blue;}
+input:checked+ .knopka_like {fill: red;}
