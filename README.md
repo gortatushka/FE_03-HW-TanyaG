@@ -14,3 +14,8 @@
  * [Task01](class09/Task01/)
 * ## Class10
  * [Task01](class10/Task01/)
+* ## Class12 
+ * [Task01](class12/Task01/)
+ * [Task02](class12/Task02/)
+ * [Task03](class12/Task03/)
+ * [Task04](class12/Task04/)
